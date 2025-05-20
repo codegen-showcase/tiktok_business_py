@@ -18,14 +18,14 @@ servers:
   default: true
 auths:
 - id: token
-  param: token
+  param: api_token
 default_module_structure: path
 modules:
-- path: adgroup.quota
+- path: adgroup.quotas
   operations:
   - id: getAdgroupQuota
-    function_name: list
-- path: advertiser.info
+    function_name: get
+- path: advertiser
   operations:
   - id: getAdvertiserInfo
-    function_name: list
+    function_name: get_info
