@@ -15,7 +15,7 @@ from os import getenv
 from tiktok_business_py import Client
 
 client = Client(api_token=getenv("API_TOKEN"))
-res = client.advertiser.get_info(advertiser_ids=["6793033820309700610"])
+res = client.advertiser.get_info(advertiser_ids=["T79303382030970061N"])
 ```
 
 #### Asynchronous Client
@@ -25,5 +25,5 @@ from os import getenv
 from tiktok_business_py import AsyncClient
 
 client = AsyncClient(api_token=getenv("API_TOKEN"))
-res = await client.advertiser.get_info(advertiser_ids=["6793033820309700610"])
+res = await client.advertiser.get_info(advertiser_ids=["T79303382030970061N"])
 ```

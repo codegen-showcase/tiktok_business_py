@@ -9,6 +9,8 @@ This API allows businesses to interact with TikTok's advertising platform progra
 ## Authentication
 All endpoints require Bearer token authentication. Include your access token in the Authorization header.
 
+### FOR TIKTOK TEAM: SDK Update Demo
+<video src="https://github.com/codegen-showcase/tiktok_business_py/blob/main/sdk-update-demo.mov" width="640" height="360" controls></video>
 
 #### Synchronous Client
 

@@ -45,7 +45,7 @@ class QuotasClient:
 
         Examples:
         ```py
-        client.adgroup.quotas.get(advertiser_id="6793033820309700610")
+        client.adgroup.quotas.get(advertiser_id="T79303382030970061N")
         ```
         """
         _query: QueryParams = {}
@@ -99,7 +99,7 @@ class AsyncQuotasClient:
 
         Examples:
         ```py
-        await client.adgroup.quotas.get(advertiser_id="6793033820309700610")
+        await client.adgroup.quotas.get(advertiser_id="T79303382030970061N")
         ```
         """
         _query: QueryParams = {}

@@ -66,7 +66,7 @@ class AdvertiserClient:
 
         Examples:
         ```py
-        client.advertiser.get_info(advertiser_ids=["6793033820309700610"])
+        client.advertiser.get_info(advertiser_ids=["T79303382030970061N"])
         ```
         """
         _query: QueryParams = {}
@@ -154,7 +154,7 @@ class AsyncAdvertiserClient:
 
         Examples:
         ```py
-        await client.advertiser.get_info(advertiser_ids=["6793033820309700610"])
+        await client.advertiser.get_info(advertiser_ids=["T79303382030970061N"])
         ```
         """
         _query: QueryParams = {}

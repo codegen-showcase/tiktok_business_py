@@ -26,7 +26,7 @@ def test_get_info_200_generated_success():
     """
     # tests calling sync method with example data
     client = Client(api_token="API_TOKEN", environment=Environment.MOCK_SERVER)
-    response = client.advertiser.get_info(advertiser_ids=["6793033820309700610"])
+    response = client.advertiser.get_info(advertiser_ids=["T79303382030970061N"])
     try:
         pydantic.TypeAdapter(models.StandardResponse).validate_python(response)
         is_json = True
@@ -56,7 +56,7 @@ async def test_await_get_info_200_generated_success():
     """
     # tests calling async method with example data
     client = AsyncClient(api_token="API_TOKEN", environment=Environment.MOCK_SERVER)
-    response = await client.advertiser.get_info(advertiser_ids=["6793033820309700610"])
+    response = await client.advertiser.get_info(advertiser_ids=["T79303382030970061N"])
     try:
         pydantic.TypeAdapter(models.StandardResponse).validate_python(response)
         is_json = True
