@@ -1,0 +1,31 @@
+api: tiktok-business
+languages:
+  java:
+    sdk_name: tiktokbusinessjava
+    group_id: com.yourorg
+  python:
+    sdk_name: tiktok_business_py
+  typescript:
+    sdk_name: tiktok_business_ts
+  rust:
+    sdk_name: tiktok_business_rs
+    cli: false
+  go:
+    sdk_name: tiktok_business_go
+servers:
+- url: https://business-api.tiktok.com
+  name: production
+  default: true
+auths:
+- id: token
+  param: token
+default_module_structure: path
+modules:
+- path: adgroup.quota
+  operations:
+  - id: getAdgroupQuota
+    function_name: list
+- path: advertiser.info
+  operations:
+  - id: getAdvertiserInfo
+    function_name: list
