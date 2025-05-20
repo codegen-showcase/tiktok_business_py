@@ -30,12 +30,12 @@ client = AsyncClient(token=getenv("API_TOKEN"))
 
 ## Module Documentation and Snippets
 
-### [adgroup.quota](tiktok_business_py/resources/adgroup/quota/README.md)
+### [adgroup.quotas](tiktok_business_py/resources/adgroup/quotas/README.md)
 
-* [list](tiktok_business_py/resources/adgroup/quota/README.md#list) - Get the dynamic quota
+* [get](tiktok_business_py/resources/adgroup/quotas/README.md#get) - Get the dynamic quota
 
-### [advertiser.info](tiktok_business_py/resources/advertiser/info/README.md)
+### [advertiser](tiktok_business_py/resources/advertiser/README.md)
 
-* [list](tiktok_business_py/resources/advertiser/info/README.md#list) - Get ad account details
+* [get_info](tiktok_business_py/resources/advertiser/README.md#get_info) - Get ad account details
 
 <!-- MODULE DOCS END -->
