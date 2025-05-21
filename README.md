@@ -18,7 +18,7 @@ Check out the [SDK Update Demo](./sdk-update-demo.mov)
 from os import getenv
 from tiktok_business_py import Client
 
-client = Client(token=getenv("API_TOKEN"))
+client = Client(api_token=getenv("API_TOKEN"))
 ```
 
 #### Asynchronous Client
@@ -27,7 +27,7 @@ client = Client(token=getenv("API_TOKEN"))
 from os import getenv
 from tiktok_business_py import AsyncClient
 
-client = AsyncClient(token=getenv("API_TOKEN"))
+client = AsyncClient(api_token=getenv("API_TOKEN"))
 ```
 
 ## Module Documentation and Snippets
